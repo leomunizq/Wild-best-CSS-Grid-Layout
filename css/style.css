@@ -229,17 +229,48 @@ padding:15px;
   align-content: start;
   padding:30px;
   gap:30px;
-
 }
 
 .footer{
   grid-area: footer;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
- 
-
 }
 .footer p {
   color: white;
   text-align: center;
   padding:30px;
 }
+
+/* DEVICES MAX 1200PX */
+
+@media (max-width: 1200px) {
+.container {
+  grid-template-areas:
+  "header header header"
+  "sidenav content content"
+  "sidenav anuncios anuncios"
+  "footer footer footer"
+  ;
+}
+
+}
+
+
+
+
+/* DEVICES MAX 760PX */
+
+@media (max-width: 760px) {
+  .container {
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "header"
+    "sidenav"
+    "content"
+    "anuncios"
+    "footer"
+    ;
+  }
+  
+  }
+  
