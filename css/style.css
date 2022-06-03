@@ -12,7 +12,7 @@ a{
   text-decoration: none;
 }
 img{
-  max-width: 100%;
+  width: 100%;
   display:block;
   border-radius: 5px;
 }
@@ -229,6 +229,7 @@ padding:15px;
   align-content: start;
   padding:30px;
   gap:30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .footer{
@@ -325,3 +326,11 @@ display:flex;
   }
   }
   
+/* DEVICES MAX 600px */
+
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+   
+  }
+}
