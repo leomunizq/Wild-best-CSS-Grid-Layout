@@ -15,6 +15,11 @@ The project is responsive, adaptable to all screens, whether desktop, tablet or 
 ## :wrench: Technologies used
 * HTML
 * CSS - CSS GRID LAYOUT
+* CSS Grid
+* Grid Container
+* Grid Item
+* Media Querie
+
 
 
 ## :rocket: Deploy
