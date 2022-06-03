@@ -271,6 +271,18 @@ padding:15px;
     "footer"
     ;
   }
-  
+
+  .header {
+    grid-template-columns: auto;
+  }
+  .header nav a {
+    font-size: 1em;
+  }
+  .header li + li {
+    margin-left: 10px;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
   }
   
